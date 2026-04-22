@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+.headerBtn{
+  @apply bg-olive-300 py-1 px-3  text-sm rounded-full
+}
+
+.mainImg {
+  background-image: url("src/images/bg.png"); /* use your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* 🔥 THIS creates the parallax effect */
+  background-attachment: fixed;
+}
