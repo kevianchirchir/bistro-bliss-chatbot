@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-
+*{
+  
+}
 .headerBtn{
   @apply bg-olive-300 py-1 px-3  text-sm rounded-full
 }
