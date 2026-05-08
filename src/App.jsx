@@ -252,7 +252,7 @@ function ChatBot({ isChatOpen, setChat }) {
             className="fixed bottom-5 right-5 w-14 h-14 cursor-pointer z-50"
             onClick={() => setChat(true)}
           >
-            <img src="src/images/images.jfif" alt="chat" className="w-full h-full rounded-full border-2 border-red-500 shadow-lg shadow-red-200" />
+            <img src="/images.jfif" alt="chat" className="w-full h-full rounded-full border-2 border-red-500 shadow-lg shadow-red-200" />
             <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-white" />
           </motion.div>
         )}
