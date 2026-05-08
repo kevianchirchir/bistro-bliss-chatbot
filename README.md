@@ -1,3 +1,3 @@
 Bistro Bliss
 
-A modern interactive restaurant website built with React, featuring an AI-powered chatbot for customer interaction.
+A modern interactive restaurant website built with React, featuring a chatbot for customer interaction.
