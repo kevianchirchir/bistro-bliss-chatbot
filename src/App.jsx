@@ -35,7 +35,7 @@ function Header() {
         bg-white shadow-md`}
     >
       <div className='flex items-center gap-3'>
-        <img className='h-14' src="src/images/logo.png" alt="Logo" />
+        <img className='h-14' src="/logo.png" alt="Logo" />
         <h1 className='text-2xl font-black text-red-700 tracking-tight'>Bistro Bliss</h1>
       </div>
 
@@ -120,10 +120,10 @@ function Main() {
 
 function Browse() {
   const categories = [
-    { img: "src/images/breakfast.png", name: "Breakfast" },
-    { img: "src/images/rice.png", name: "Main Dishes"},
-    { img: "src/images/cup.png", name: "Drinks"},
-    { img: "src/images/desserts.png", name: "Desserts"},
+    { img: "/breakfast.png", name: "Breakfast" },
+    { img: "/rice.png", name: "Main Dishes"},
+    { img: "/cup.png", name: "Drinks"},
+    { img: "/desserts.png", name: "Desserts"},
   ]
 
   return (
@@ -168,7 +168,7 @@ function ContactInfo() {
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          src="src/images/food2.png"
+          src="/food2.png"
           alt="Food"
           className='w-full max-w-sm rounded-3xl shadow-2xl'
         />

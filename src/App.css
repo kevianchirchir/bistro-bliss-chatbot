@@ -8,11 +8,11 @@
 }
 
 .mainImg {
-  background-image: url("src/images/bg.png"); /* use your image */
+  background-image: url("/bg.png"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  /* 🔥 THIS creates the parallax effect */
+
   background-attachment: fixed;
 }
